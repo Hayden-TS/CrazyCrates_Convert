@@ -1,0 +1,28 @@
+#Configure basic parts of the plugin
+#CLICKTYPES: https://helpch.at/docs/1.8.8/index.html?org/bukkit/event/inventory/ClickType.html
+#Placeholders: %key_name% %key_displayname%
+settings:
+  redeemall: true
+  redeemall_button: "RIGHT"
+  title: "&c&lVIRTUAL KEYS"
+  rows: 1
+  lore:
+    - "&7You currently have &c%amount%"
+    - "&b%key_displayname% &7keys"
+    - "&7&o(right click to withdraw all)"
+  aliases:
+    - convert
+
+
+messages:
+  nokeys: "&cSorry, You don't have any more of this key type left."
+  keyredeemed: "&4&lKEYS &7You successfully redeemed a %key_displayname%"
+  #%amount% placeholder is applicable below
+  allkeysredeemed: "&4&lKEYS &7You have redeemed all &c%amount% &7of your &c%key_name% &7keys"
+
+
+keys:
+  Basic:
+    displayname: "&f&lBASIC"
+    row: 0
+    column: 0

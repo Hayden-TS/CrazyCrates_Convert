@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CrazyCrates Convert:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CrazyCrates_Convert_jar</output-path>
+    <root id="archive" name="CrazyCrates Convert.jar">
+      <element id="module-output" name="CrazyCrates Convert" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/SmartInvs-1.2.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
